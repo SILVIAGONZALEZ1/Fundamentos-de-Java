@@ -1,4 +1,4 @@
-package basic.c00_helloword;
+package c00_helloworld;
 
 public class HelloWorldExercises {
 
@@ -19,7 +19,7 @@ public class HelloWorldExercises {
 
         // 4. Crea un comentario en varias líneas.
 
-        /** Este es un comentario
+        /* * Este es un comentario
          * de varias líneas
          * que explica el propósito del programa.
          */
@@ -65,7 +65,7 @@ public class HelloWorldExercises {
         // Esta línea copia un array a otro (no imprime nada).
         // System.arraycopy() no tiene un método println, ya que es para manipular arrays, no para imprimir.
 
-        System.getenv();
+        //System.getenv();
         // Esta línea obtiene las variables de entorno del sistema (no imprime nada).
         // System.getenv() no tiene un método println, ya que es para obtener información, no para imprimir.
 
@@ -78,7 +78,7 @@ public class HelloWorldExercises {
         // Esta línea obtiene el canal heredado del sistema (no imprime nada).
         // System.inheritedChannel() no tiene un método println, ya que es para obtener información, no para imprimir.
 
-        System.lineSeparator();
+        //System.lineSeparator();
         // Esta línea obtiene el separador de líneas del sistema (no imprime nada).
         // System.lineSeparator() no tiene un método println, ya que es para obtener información, no para imprimir.
 
@@ -89,7 +89,7 @@ public class HelloWorldExercises {
 
         System.out.println("La");
         System.out.println("vida");
-        System.out.println("es");;
+        System.out.println("es");
         System.out.println("bella.");
 
 

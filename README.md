@@ -6,3 +6,6 @@ Este es un curso de fundamentos de Java
 - Educational content (notes, guides, slides) is licensed under CC BY 4.0.
 
 This repository is intended for educational purposes.
+
+## Java Style Guide
+https://google.github.io/styleguide/javaguide.html
