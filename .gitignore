@@ -1,2 +1,10 @@
-/out/
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Java compilado
+out/
 *.class
+
+# Otros
+target/
