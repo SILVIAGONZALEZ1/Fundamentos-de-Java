@@ -83,15 +83,12 @@ public class HelloWorldExercises {
         // System.lineSeparator() no tiene un método println, ya que es para obtener información, no para imprimir.
 
 
-
-
         // 7. Utiliza varios println para imprimir una frase.
 
         System.out.println("La");
         System.out.println("vida");
         System.out.println("es");
         System.out.println("bella.");
-
 
 
         // 8. Imprime un diseño ASCII (por ejemplo, una cara feliz usando símbolos).
@@ -104,15 +101,19 @@ public class HelloWorldExercises {
         System.out.println(" \\_____/ ");
 
 
-
         // 9. Intenta ejecutar el programa sin el método main y observa el error.
 // El programa no se ejecutará y mostrará un error indicando que no se encontró el método main.
 
 
+        //10. Intenta cambiar el nombre del archivo a uno diferente del de la clase y compílalo. ¿Qué pasa?
+        // El programa no se compilará y mostrará un error indicando que el nombre del archivo debe coincidir con el nombre de la clase pública.
+        //java: class HelloWorldExercise is public, should be declared in a file named HelloWorldExercise.java
+
+
+      /*  Ctrl + / — alterna comentario de línea (comenta/descomenta la línea o selección).
+        Ctrl + Shift + / — comenta con *//* ... *//* la selección (comentario de bloque).
+        Ctrl + Shift + \ — quita el comentario de bloque.
+                También: escribir *//** encima de un método y pulsar Enter genera un Javadoc.*/
 
     }
-
-  //10. Intenta cambiar el nombre del archivo a uno diferente del de la clase y compílalo. ¿Qué pasa?
-    // El programa no se compilará y mostrará un error indicando que el nombre del archivo debe coincidir con el nombre de la clase pública.
-    //java: class HelloWorldExercise is public, should be declared in a file named HelloWorldExercise.java
 }

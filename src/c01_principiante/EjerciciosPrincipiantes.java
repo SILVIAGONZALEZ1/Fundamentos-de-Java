@@ -50,5 +50,11 @@ public class EjerciciosPrincipiantes {
         ciudad = "Buenos Aires";
         System.out.println("Ciudad: " + ciudad);
 
+/*      Reformat / identar todo el archivo o la selección: Ctrl + Alt + L
+                                    (para todo el archivo: Ctrl + A luego Ctrl + Alt + L)
+        Indentar / desindentar la selección: Tab / Shift + Tab
+        Menú: Code → Reformat Code (misma acción que Ctrl + Alt + L)
+        */
+
     }
 }
