@@ -11,7 +11,7 @@ public class Condicionales {
             System.out.println("Eres mayor de edad");
         } else if (age == 18) { //si no se cumple la condicion anterior pero se cumple esta
             System.out.println("Acaba de cumplir 18 años");
-        }else{//si no se cumple ninguna de las condiciones anteriores
+        } else {//si no se cumple ninguna de las condiciones anteriores
             System.out.println("Eres menor de edad");
         }
 
@@ -20,7 +20,7 @@ public class Condicionales {
         //switch se usa para seleccionar una de muchas opciones basadas en el valor de una variable
 
         var day = 1;//variable que representa el día de la semana
-        switch (day){//inicio del switch
+        switch (day) {//inicio del switch
             case 1:
                 System.out.println("Lunes");
                 break;// rompe el switch
@@ -45,13 +45,6 @@ public class Condicionales {
             default://si no se cumple ninguna de las condiciones anteriores
                 System.out.println("Día no válido");
         }
-
-
-
-
-
-
-
 
 
     }

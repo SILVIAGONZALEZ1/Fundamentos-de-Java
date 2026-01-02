@@ -42,8 +42,8 @@ public class EjerciciosPrincipiantes {
         System.out.println("Suma de a y b: " + suma);
 
         // 9. Imprime el tipo de dos variables creadas anteriormente.
-        System.out.println("Tipo de la variable 'nombre': " + ((Object)nombre).getClass().getSimpleName());
-        System.out.println("Tipo de la variable 'edad': " + ((Object)edad).getClass().getSimpleName());
+        System.out.println("Tipo de la variable 'nombre': " + ((Object) nombre).getClass().getSimpleName());
+        System.out.println("Tipo de la variable 'edad': " + ((Object) edad).getClass().getSimpleName());
 
         // 10. Intenta declarar una variable sin inicializarla y luego asígnale un valor antes de imprimirla.
         String ciudad;
