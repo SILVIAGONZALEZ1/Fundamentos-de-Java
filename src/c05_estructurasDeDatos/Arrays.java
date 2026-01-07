@@ -4,7 +4,7 @@ public class Arrays {
     static void main(String[] args) {
         //Declaracion y creacion de Arrays
         //Array es una estructura de datos estatica, es necesario definir su tamaño inicial
-        int [] numeros = new int[5]; //Array de enteros con 5 elementos
+       int [] numeros = new int[5]; //Array de enteros con 5 elementos
         System.out.println("Longitud del array numeros: " + numeros.length);
 
 
