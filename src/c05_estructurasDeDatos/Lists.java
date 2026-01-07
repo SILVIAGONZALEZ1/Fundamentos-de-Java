@@ -2,7 +2,7 @@ package c05_estructurasDeDatos;
 
 import java.util.ArrayList;
 
-public class List {
+public class Lists {
     static void main(String[] args) {
 
         //Declaracion y creacion de ArraysList

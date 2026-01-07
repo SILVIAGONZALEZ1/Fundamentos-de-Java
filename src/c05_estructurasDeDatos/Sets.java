@@ -2,7 +2,7 @@ package c05_estructurasDeDatos;
 
 import java.util.HashSet;
 
-public class Set {
+public class Sets {
     static void main(String[] args) {
         //HashSet, estructura de datos que no permite elementos duplicados y no mantiene un orden fijo
         //almacena datos unicos, no permite elementos repetidos,busca mas rapido que un ArrayList
