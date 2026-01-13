@@ -18,4 +18,10 @@ public class Person {  //UpperCamelCase
     public void sayHello() {
         System.out.println("Hola soy " + name + " y tengo " + age + " años");
     }
+
+    //Metodo usando ---> toString() es un método de Java que sirve para convertir un objeto en texto.
+    public String toString(){
+        return "Nombre: " + this.name + ", Edad: " + this.age;
+    }
+
 }
