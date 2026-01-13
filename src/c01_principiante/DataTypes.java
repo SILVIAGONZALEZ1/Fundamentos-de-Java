@@ -10,7 +10,7 @@ public class DataTypes {
         System.out.println("Número entero: " + numeroEntero);
 
         // Tipo de dato de punto flotante
-        double numeroDecimal = 3.14;
+        double numeroDecimal = 3.14;//numero decimal
         System.out.println("Número decimal: " + numeroDecimal);
 
         // Tipo de dato carácter
