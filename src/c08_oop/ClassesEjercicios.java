@@ -19,16 +19,16 @@ public class ClassesEjercicios {
         // 3. Añade un constructor a la clase Book que reciba title y author.
 
         // 4. Crea una clase Car con atributos brand y model y un método showData().
-        var car = new Car("Tesla", "Modelo Y");
+        //var car = new Car("Tesla", "Modelo Y");
         // car.marca = "Tesla";
         // car.modelo = "Modelo Y";
-        car.showData();
+        //car.showData();
 
 
         // 5. Crea una clase Student con atributo score y un método que diga si aprobó (mayor o igual a 60).
-        var student = new Student();
-        student.score = 60;
-        student.rendir();
+//        var student = new Student();
+//        student.score = 60;
+//        student.rendir();
 
         // 6. Crea una clase BankAccount con atributo balance y un método deposit() que sume el saldo.
         var cuenta = new BankAccount(1000);
@@ -52,9 +52,9 @@ public class ClassesEjercicios {
         ArrayList<Person> personas = new ArrayList<>();
 
         // Crear varios objetos Person
-        var p1 = new Person("Ana", 25);
-        var p2 = new Person("Luis", 30);
-        var p3 = new Person("María", 40);
+        var p1 = new Person("Ana", 25 , "40123654E");
+        var p2 = new Person("Luis", 30, "50654789C");
+        var p3 = new Person("María", 40, "78996541B");
 
         // Guardarlos en el ArrayList
         personas.add(p1);
