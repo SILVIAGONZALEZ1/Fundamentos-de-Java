@@ -2,18 +2,25 @@ package c08_oop;
 
 public class Employee {
     //7.  Crea una clase Employee con el atributo privado salary.
-    // Agrega el método raiseSalary(double percent) que solo permita aumentos positivos.//raiseSalary = aumentarSalario
+    // Agrega el método raiseSalary(double percent) que solo permita aumentos positivos.
+    // raiseSalary = aumentarSalario
 
     //Atributos
     private double salary;
+    private String name;
 
     //Constructor
-    public Employee(double salary) {
+    public Employee(double salary, String name) {
         this.salary = salary;
+        this.name = name;
     }
     //Getters
     public double getSalary() {
         return salary;
+    }
+
+    public String getName() {
+        return name;
     }
 
     //Metodo para aumentarSalario

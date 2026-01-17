@@ -52,14 +52,14 @@ public class ClassesEjercicios {
         ArrayList<Person> personas = new ArrayList<>();
 
         // Crear varios objetos Person
-        var p1 = new Person("Ana", 25 , "40123654E");
-        var p2 = new Person("Luis", 30, "50654789C");
-        var p3 = new Person("María", 40, "78996541B");
+//        var p1 = new Person("Ana", 25 , "40123654E");
+//        var p2 = new Person("Luis", 30, "50654789C");
+//        var p3 = new Person("María", 40, "78996541B");
 
         // Guardarlos en el ArrayList
-        personas.add(p1);
-        personas.add(p2);
-        personas.add(p3);
+//        personas.add(p1);
+//        personas.add(p2);
+//        personas.add(p3);
 
         // Mostrar la lista
         for (Person p : personas) {

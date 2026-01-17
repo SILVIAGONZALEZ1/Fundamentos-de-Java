@@ -6,18 +6,18 @@ public class Person {  //UpperCamelCase
 // para asignar y mostrar valores desde otra clase.
 
     //1- Atributos o caracteristicas que tiene el objeto o la clase Person
-    private String name;
-    private int age;
+    protected String name;
+    protected int age;
     //final private int ID; // Aca se declara como una constante por eso colocamos final osea no se puede modificar
-    private String id;
+   // private String id;
 
 
     //2- Constructor de clase inicializa el objeto
     //Constructor vacio
-    public Person(String name, int age, String id) {
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
-        this.id = id;
+        //this.id = id;
     }
 
     //Getters
@@ -29,9 +29,9 @@ public class Person {  //UpperCamelCase
         return age;
     }
 
-    public String getId() {
-        return id;
-    }
+//    public String getId() {
+//        return id;
+//    }
 
 
     //Setters
@@ -47,18 +47,18 @@ public class Person {  //UpperCamelCase
         }
     }
 
-    public void setId(String id) {
-        this.id = id;
-    }
+//    public void setId(String id) {
+//        this.id = id;
+//    }
 
 
     //3- Metodos
-    public void sayHello() {
-        System.out.println("Hola soy " + name + " y tengo " + age + " años y mi id es " + this.id);
-    }
-
-    //Metodo usando ---> toString() es un método de Java que sirve para convertir un objeto en texto.
-    public String toString() {
-        return "Nombre: " + this.name + ", Edad: " + this.age + this.id;
-    }
+//    public void sayHello() {
+//        System.out.println("Hola soy " + name + " y tengo " + age + " años y mi id es " + this.id);
+//    }
+//
+//    //Metodo usando ---> toString() es un método de Java que sirve para convertir un objeto en texto.
+//    public String toString() {
+//        return "Nombre: " + this.name + ", Edad: " + this.age + this.id;
+//    }
 }
