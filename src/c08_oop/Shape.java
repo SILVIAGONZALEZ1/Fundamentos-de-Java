@@ -4,9 +4,13 @@ package c08_oop;
 //  Luego implementa ese método en Circulo y Rectangulo
 
 //Clase padre Shape
-public abstract class Shape {
+public  abstract class Shape {
+    static void main(String[] args) {
+
+    }
 
     // Método abstracto (sin implementación)
     public abstract double calculateArea();
-}
+
+    }
 

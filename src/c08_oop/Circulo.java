@@ -1,6 +1,6 @@
 package c08_oop;
 
-public class Circulo extends Shape {
+public class Circulo extends Shape   {
 
     private double radio;
 
