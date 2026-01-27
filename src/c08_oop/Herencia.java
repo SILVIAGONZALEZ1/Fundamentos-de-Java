@@ -1,6 +1,6 @@
 package c08_oop;
 
-public class Herencia {
+public class Herencia { //("es un")  // un perro es un Animal
     public static void main(String[] args) {
         //Herencia
         var animal = new Animal("Mi animal");
